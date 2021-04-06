@@ -1,6 +1,8 @@
 #include <SPI.h>      //bibliotheek communicatie modem
 #include "RF24.h"     //bibliotheek controle radio modem
 
+// Flor maakt fantastische comments
+
 RF24 radio(9,10);    //Modem verbonden met arduino: pin 9 en 10 verbonden met CE en CSN
 
 uint8_t address[][6] = {"1Node", "2Node"};
